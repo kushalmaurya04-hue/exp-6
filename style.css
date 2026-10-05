@@ -1,0 +1,60 @@
+/* Default styles (desktop first) */
+.hero {
+  background-color: #1f3a5f;
+  padding: 90px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.post-img {
+  height: 160px;
+}
+
+/* Coloured blocks used instead of photos */
+.img-one   { background-color: #e07a5f; }
+.img-two   { background-color: #3d85c6; }
+.img-three { background-color: #81b29a; }
+.img-four  { background-color: #f2cc8f; }
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* Tablets and smaller (screen width up to 992px) */
+@media (max-width: 992px) {
+  .hero {
+    padding: 70px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  /* Add space above the sidebar when it moves below the posts */
+  aside {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile phones (screen width up to 576px) */
+@media (max-width: 576px) {
+  .hero {
+    padding: 45px 0;
+  }
+
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero .lead {
+    font-size: 1rem;
+  }
+
+  .post-img {
+    height: 110px;
+  }
+
+  main h2 {
+    font-size: 1.4rem;
+  }
+}
